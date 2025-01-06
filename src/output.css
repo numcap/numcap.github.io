@@ -767,12 +767,12 @@ video {
   animation: slideIn 0.5s ease-out;
 }
 
-.cursor-pointer {
-  cursor: pointer;
-}
-
 .cursor-default {
   cursor: default;
+}
+
+.cursor-pointer {
+  cursor: pointer;
 }
 
 .resize {
@@ -879,11 +879,6 @@ video {
   background-color: rgb(163 163 163 / var(--tw-bg-opacity, 1));
 }
 
-.bg-slate-100 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(241 245 249 / var(--tw-bg-opacity, 1));
-}
-
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
@@ -903,18 +898,6 @@ video {
 
 .bg-opacity-90 {
   --tw-bg-opacity: 0.9;
-}
-
-.bg-\[url\(\"\.\/blobs\.svg\"\)\] {
-  background-image: url("./blobs.svg");
-}
-
-.bg-\[url\(\"\.\/images\/IMG_4196\.jpg\"\)\] {
-  background-image: url("./images/IMG_4196.jpg");
-}
-
-.bg-\[url\(\"\.\/images\/blobs\.svg\"\)\] {
-  background-image: url("./images/blobs.svg");
 }
 
 .bg-\[url\(\"\/images\/IMG_4196\.jpg\"\)\] {
@@ -1227,10 +1210,6 @@ html {
 
   .md\:flex-row {
     flex-direction: row;
-  }
-
-  .md\:bg-\[url\(\"\.\/images\/IMG_4196\.jpg\"\)\] {
-    background-image: url("./images/IMG_4196.jpg");
   }
 
   .md\:bg-\[url\(\"\/images\/IMG_4196\.jpg\"\)\] {
