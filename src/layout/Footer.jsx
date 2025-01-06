@@ -1,4 +1,5 @@
 import { FaInstagram } from "react-icons/fa";
+import { IoIosMail } from "react-icons/io";
 import { TbBrandLinktree } from "react-icons/tb";
 
 export const Footer = () => {
@@ -22,6 +23,9 @@ export const Footer = () => {
 					</a>
 					<a href="https://linktr.ee/kingspsychassociation?utm_source=linktree_profile_share&ltsid=b44fed9f-f255-4169-97fa-6f0f5a8b0a6c">
 						<TbBrandLinktree className='w-10 h-10 text-kings-green-500 hover:text-kings-gold-500 transition-all duration-300 cursor-pointer' />
+					</a>
+					<a href="mailto:psych.association@kucsc.com">
+						<IoIosMail className="w-10 h-10 text-kings-green-500 hover:text-kings-gold-500 transition-all duration-300 cursor-pointer"/>
 					</a>
 				</div>
 			</div>
